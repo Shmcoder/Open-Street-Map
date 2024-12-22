@@ -1,0 +1,50 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#map {
+    height: 600px; /* Set a height for the map */
+    width: 100%;
+}
+
+
+#sidebar {
+    width: 25%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.shape-btn {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.shape-btn:hover {
+    background-color: #45a049;
+}
+
+button {
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+button:hover {
+    background-color: #d32f2f;
+}
